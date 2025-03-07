@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "outDir": "./dist",                   // Pasta onde os arquivos compilados serão gerados (usado com `tsc` para compilar)
+      "rootDir": "./src",  
+      "strict": true,
+      "strictPropertyInitialization": false,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "esModuleInterop": true,              // Para compatibilidade com módulos ES
+      "skipLibCheck": true                 // Ignora verificações de tipo de arquivos de bibliotecas
+    },
+    "include": ["src/**/*"],                // Incluir todos os arquivos TypeScript da pasta src
+    "exclude": ["node_modules"]             // Excluir a pasta node_modules
+  }
